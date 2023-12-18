@@ -74,6 +74,7 @@ function calcStrength(){
     }
 } 
 
+
 //copy to clip board
 async function copyContent(){
     try{
@@ -175,6 +176,7 @@ generateBtn.addEventListener('click' , () =>{
     function shufflePassword (array){
         //fisher Yates Method
         for (let i = array.length-1 ; i>0 ; i--){
+            // 
             const j = Math.floor(Math.random()*(i+1));
             const temp = array[i];
             array[i]=array[j];
